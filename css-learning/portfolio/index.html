@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人网站</title>
+    <meta name="description" content="我的博客记录了学习心得，网站收录了练习作品">
+    <link rel="stylesheet" href="styles.css">
+    <script src="toggle.js"></script>
+    <script src="https://kit.fontawesome.com/6d61c4a98e.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:700&amp;display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- START NAV -->
+
+    <nav id="navbar" class="nav">
+        <div class="container" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <ul id="nav-list" class="nav-list ">
+            <li>
+                <a class="nav-top"  href="top">我的博客</a>
+                <a class="nav-bottom" href="">我的博客</a>
+            </li>
+            <li>
+                <a class="nav-top" href="#welcome-section">About</a>
+                <a class="nav-bottom" href="#welcome-section" aria-hidden="true">About</a>
+            </li>
+            <li>
+                <a class="nav-top" href="#projects">Work</a>
+                <a class="nav-bottom" href="#projects">Work</a>
+            </li>
+            <li>
+                <a class="nav-top" href="#contact">Contact</a>
+                <a class="nav-bottom" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- END NAV -->
+
+    <!-- START WELCOME SECTION -->
+
+    <section id="welcome-section" class="welcome-section">
+        <h1>Hey I am Shawn</h1>
+        <p>我是一名Web开发工程师</p>
+    </section>
+
+    <!-- END WELCOME SECTION -->
+
+    <!-- START PROJECTS SECTION -->
+
+    <section id="projects" class="projects-section">
+        <h2 class="projects-section-header">These are some of my projects</h2>
+
+        <div class="projects-container">
+            <a href="../../wuzhiqi/wuzhiqi.html" target="_blank" class="project-card">
+                <img class="project-image" src="./image/wuzhiqi.png" alt="project">
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                    五子棋
+                    <span class="code">/&gt;</span>
+                </p>
+            </a>
+            <a href="../../mvvm/index.html" target="_blank" class="  project-card">
+                <img class="project-image" src="./image/pattern.png" alt="project">
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                    原生js和三层设计模式
+                    <span class="code">/&gt;</span>
+                </p>
+            </a>
+            <a href="../css-box-model/index.html" target="_blank" class="  project-card">
+                <img class="project-image" src="./image/box.png" alt="project">
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                    盒子练习
+                    <span class="code">/&gt;</span>
+                </p>
+            </a>
+            <a href="../../mvvm/index.html" target="_blank" class="  project-card">
+                <img class="project-image" src="./image/pattern.png" alt="project">
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                    原生js和三层设计模式
+                    <span class="code">/&gt;</span>
+                </p>
+            </a>
+            <a href="../css-box-model/index.html" target="_blank" class="  project-card">
+                <img class="project-image" src="./image/box.png" alt="project">
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                    盒子练习
+                    <span class="code">/&gt;</span>
+                </p>
+            </a>
+
+        </div>
+
+        <a class="btn btn-show-all" target="_blank">Show all<i class="fas fa-chevron-right"></i></a>
+    </section>
+
+    <!-- END PROJECTS SECTION -->
+
+    <!-- START CONTACT SECTION -->
+
+    <section id="contact" class="contact-section">
+        <div class="contact-section-header">
+            <h2>Let's work together...</h2>
+            <p></p>
+        </div>
+        <div class="contact-links">
+            <a id="profile-link" href="https://github.com/leesnug" target="_blank" class="btn contact-details"><i
+                    class="fab fa-github"></i> GitHub</a>
+            <a href="mailto:leesnug@qq.com" class="btn contact-details"><i class="fas fa-at"></i> Send a mail</a>
+            <a href="tel:13438131651" class="btn contact-details"><i class="fas fa-mobile-alt"></i> Call me</a>
+        </div>
+    </section>
+
+    <!-- END CONTACT SECTION -->
+
+    <!-- START FOOTER SECTION -->
+    <div id="divider"></div>
+    <footer>
+        <p>
+            Created in 2023
+        </p>
+    </footer>
+
+    <!-- END FOOTER SECTION -->
+
+
+</body>
+
+</html>
